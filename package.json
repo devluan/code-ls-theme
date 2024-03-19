@@ -1,0 +1,48 @@
+{
+  "name": "code-ls-dev-luan",
+  "displayName": "Code LS Theme",
+  "description": "A Darker One Dark Pro variation with Monokai scheme and colors added by devLuan in the Code LS theme",
+  "publisher": "devluan",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Code LS",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Code LS color-theme.json"
+      }
+    ]
+  },
+  "icon": "img/icon.png",
+  "galleryBanner": {
+    "color": "#000a1a",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/devluan/devluan-theme-code-ls/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devluan/devluan-theme-code-ls"
+  },
+  "keywords": [
+    "VSCode",
+    "Themes",
+    "color-theme",
+    "theme",
+    "Jupiter",
+    "devluan",
+    "dark",
+    "codels",
+    "code-ls",
+    "code",
+    "ls"
+  ],
+  "dependencies": {
+    "tsce": "^0.0.2-728e3d8f6f961ed1dd9b59ba3285788cb13ff913"
+  }
+}
